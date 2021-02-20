@@ -7,7 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D60CF09225B74A2300DC144E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60CF09125B74A2300DC144E /* Game.swift */; };
+		D639DFE125BCBB3A009CFABF /* Captain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D639DFE025BCBB3A009CFABF /* Captain.swift */; };
+		D639DFE425BCBC28009CFABF /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = D639DFE325BCBC28009CFABF /* Support.swift */; };
+		D639DFE725BCC187009CFABF /* Grenade.swift in Sources */ = {isa = PBXBuildFile; fileRef = D639DFE625BCC187009CFABF /* Grenade.swift */; };
 		D649F89425A683A3008BE6E5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649F89325A683A3008BE6E5 /* main.swift */; };
+		D649F89C25A683DD008BE6E5 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649F89B25A683DD008BE6E5 /* Character.swift */; };
+		D649F89F25A685F0008BE6E5 /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649F89E25A685F0008BE6E5 /* Weapon.swift */; };
+		D680EDA625AF168400810371 /* AssaultRifle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D680EDA525AF168400810371 /* AssaultRifle.swift */; };
+		D680EDAB25AF18B000810371 /* ShotGun.swift in Sources */ = {isa = PBXBuildFile; fileRef = D680EDAA25AF18B000810371 /* ShotGun.swift */; };
+		D68A0FC825DF139800FCB319 /* Pen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68A0FC725DF139800FCB319 /* Pen.swift */; };
+		D68A0FCC25DF164900FCB319 /* Sword.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68A0FCB25DF164900FCB319 /* Sword.swift */; };
+		D68A0FCF25DF17C700FCB319 /* MobilePhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68A0FCE25DF17C700FCB319 /* MobilePhone.swift */; };
+		D6AFF8B425ADC8380090AD65 /* SniperRifle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AFF8B325ADC8380090AD65 /* SniperRifle.swift */; };
+		D6AFF8B725ADC8510090AD65 /* Knife.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AFF8B625ADC8510090AD65 /* Knife.swift */; };
+		D6AFF8BA25ADC86B0090AD65 /* HandGun.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AFF8B925ADC86B0090AD65 /* HandGun.swift */; };
+		D6AFF8C425ADD1C30090AD65 /* Medic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AFF8C325ADD1C30090AD65 /* Medic.swift */; };
+		D6AFF8C725ADD1D80090AD65 /* Sniper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AFF8C625ADD1D80090AD65 /* Sniper.swift */; };
+		D6AFF8CA25ADD1EA0090AD65 /* AssaultSoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AFF8C925ADD1EA0090AD65 /* AssaultSoldier.swift */; };
+		D6F292AA25A7653B00222D92 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F292A925A7653B00222D92 /* Player.swift */; };
+		D6F292B025A76ADA00222D92 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F292AF25A76ADA00222D92 /* GameOver.swift */; };
+		D6F292B325A76D4700222D92 /* RandomBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F292B225A76D4700222D92 /* RandomBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +43,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D60CF09125B74A2300DC144E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		D639DFE025BCBB3A009CFABF /* Captain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Captain.swift; sourceTree = "<group>"; };
+		D639DFE325BCBC28009CFABF /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
+		D639DFE625BCC187009CFABF /* Grenade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grenade.swift; sourceTree = "<group>"; };
 		D649F89025A683A3008BE6E5 /* Fight Game (P3) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Fight Game (P3)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D649F89325A683A3008BE6E5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D649F89B25A683DD008BE6E5 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		D649F89E25A685F0008BE6E5 /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
+		D680EDA525AF168400810371 /* AssaultRifle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssaultRifle.swift; sourceTree = "<group>"; };
+		D680EDAA25AF18B000810371 /* ShotGun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotGun.swift; sourceTree = "<group>"; };
+		D68A0FC725DF139800FCB319 /* Pen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pen.swift; sourceTree = "<group>"; };
+		D68A0FCB25DF164900FCB319 /* Sword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sword.swift; sourceTree = "<group>"; };
+		D68A0FCE25DF17C700FCB319 /* MobilePhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilePhone.swift; sourceTree = "<group>"; };
+		D6AFF8B325ADC8380090AD65 /* SniperRifle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SniperRifle.swift; sourceTree = "<group>"; };
+		D6AFF8B625ADC8510090AD65 /* Knife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knife.swift; sourceTree = "<group>"; };
+		D6AFF8B925ADC86B0090AD65 /* HandGun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandGun.swift; sourceTree = "<group>"; };
+		D6AFF8C325ADD1C30090AD65 /* Medic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medic.swift; sourceTree = "<group>"; };
+		D6AFF8C625ADD1D80090AD65 /* Sniper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sniper.swift; sourceTree = "<group>"; };
+		D6AFF8C925ADD1EA0090AD65 /* AssaultSoldier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssaultSoldier.swift; sourceTree = "<group>"; };
+		D6F292A925A7653B00222D92 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		D6F292AF25A76ADA00222D92 /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		D6F292B225A76D4700222D92 /* RandomBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +98,52 @@
 			isa = PBXGroup;
 			children = (
 				D649F89325A683A3008BE6E5 /* main.swift */,
+				D60CF09125B74A2300DC144E /* Game.swift */,
+				D6F292A925A7653B00222D92 /* Player.swift */,
+				D6F292B225A76D4700222D92 /* RandomBox.swift */,
+				D6F292AF25A76ADA00222D92 /* GameOver.swift */,
+				D666F4A225AA18EE00D74ADA /* Character */,
+				D666F4A325AA192200D74ADA /* Weapon */,
+				D68A0FC425DF126F00FCB319 /* RandomWeapons */,
 			);
 			path = "Fight Game (P3)";
+			sourceTree = "<group>";
+		};
+		D666F4A225AA18EE00D74ADA /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				D649F89B25A683DD008BE6E5 /* Character.swift */,
+				D6AFF8C325ADD1C30090AD65 /* Medic.swift */,
+				D6AFF8C625ADD1D80090AD65 /* Sniper.swift */,
+				D6AFF8C925ADD1EA0090AD65 /* AssaultSoldier.swift */,
+				D639DFE025BCBB3A009CFABF /* Captain.swift */,
+				D639DFE325BCBC28009CFABF /* Support.swift */,
+			);
+			path = Character;
+			sourceTree = "<group>";
+		};
+		D666F4A325AA192200D74ADA /* Weapon */ = {
+			isa = PBXGroup;
+			children = (
+				D649F89E25A685F0008BE6E5 /* Weapon.swift */,
+				D6AFF8B325ADC8380090AD65 /* SniperRifle.swift */,
+				D680EDA525AF168400810371 /* AssaultRifle.swift */,
+				D6AFF8B925ADC86B0090AD65 /* HandGun.swift */,
+				D6AFF8B625ADC8510090AD65 /* Knife.swift */,
+			);
+			path = Weapon;
+			sourceTree = "<group>";
+		};
+		D68A0FC425DF126F00FCB319 /* RandomWeapons */ = {
+			isa = PBXGroup;
+			children = (
+				D639DFE625BCC187009CFABF /* Grenade.swift */,
+				D680EDAA25AF18B000810371 /* ShotGun.swift */,
+				D68A0FC725DF139800FCB319 /* Pen.swift */,
+				D68A0FCB25DF164900FCB319 /* Sword.swift */,
+				D68A0FCE25DF17C700FCB319 /* MobilePhone.swift */,
+			);
+			path = RandomWeapons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,7 +173,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
-				LastUpgradeCheck = 1230;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					D649F88F25A683A3008BE6E5 = {
 						CreatedOnToolsVersion = 12.3;
@@ -119,7 +203,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6F292AA25A7653B00222D92 /* Player.swift in Sources */,
+				D60CF09225B74A2300DC144E /* Game.swift in Sources */,
+				D680EDA625AF168400810371 /* AssaultRifle.swift in Sources */,
+				D6AFF8BA25ADC86B0090AD65 /* HandGun.swift in Sources */,
+				D68A0FCC25DF164900FCB319 /* Sword.swift in Sources */,
+				D68A0FC825DF139800FCB319 /* Pen.swift in Sources */,
+				D6F292B025A76ADA00222D92 /* GameOver.swift in Sources */,
+				D6AFF8C725ADD1D80090AD65 /* Sniper.swift in Sources */,
+				D6AFF8B425ADC8380090AD65 /* SniperRifle.swift in Sources */,
+				D6AFF8B725ADC8510090AD65 /* Knife.swift in Sources */,
+				D639DFE125BCBB3A009CFABF /* Captain.swift in Sources */,
+				D6AFF8CA25ADD1EA0090AD65 /* AssaultSoldier.swift in Sources */,
+				D6F292B325A76D4700222D92 /* RandomBox.swift in Sources */,
+				D649F89F25A685F0008BE6E5 /* Weapon.swift in Sources */,
+				D639DFE725BCC187009CFABF /* Grenade.swift in Sources */,
+				D680EDAB25AF18B000810371 /* ShotGun.swift in Sources */,
 				D649F89425A683A3008BE6E5 /* main.swift in Sources */,
+				D6AFF8C425ADD1C30090AD65 /* Medic.swift in Sources */,
+				D68A0FCF25DF17C700FCB319 /* MobilePhone.swift in Sources */,
+				D639DFE425BCBC28009CFABF /* Support.swift in Sources */,
+				D649F89C25A683DD008BE6E5 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +348,7 @@
 		D649F89825A683A3008BE6E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87JBRRQS37;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -255,6 +360,7 @@
 		D649F89925A683A3008BE6E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 87JBRRQS37;
 				ENABLE_HARDENED_RUNTIME = YES;
